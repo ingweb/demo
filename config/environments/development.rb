@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Rails.application.configure do
+=======
+Demo::Application.configure do
+>>>>>>> 8abfecaaea7fbb424864f6770b5084d89d61bbd5
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -19,13 +23,18 @@ Rails.application.configure do
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
+<<<<<<< HEAD
   # Raise an error on page load if there are pending migrations.
+=======
+  # Raise an error on page load if there are pending migrations
+>>>>>>> 8abfecaaea7fbb424864f6770b5084d89d61bbd5
   config.active_record.migration_error = :page_load
 
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+<<<<<<< HEAD
 
   # Adds additional error checking when serving assets at runtime.
   # Checks for improperly declared sprockets dependencies.
@@ -34,4 +43,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+=======
+>>>>>>> 8abfecaaea7fbb424864f6770b5084d89d61bbd5
 end
